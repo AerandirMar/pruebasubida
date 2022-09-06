@@ -1,0 +1,81 @@
+.container
+{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#uno, #dos, #tres
+{
+    width: 320px;
+    height: 470px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+#dos
+{
+    align-self: center;
+}
+
+img
+{
+    /*border-radius: 10px; */
+    /*
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    */
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: red 2px;
+}
+
+p
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+.botonRojo
+{
+    background-color: red;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 32px;
+    color: white;
+    margin-left: 20px;
+}
+
+.botonRojo:hover
+{
+    background-color: coral;
+    color: blueviolet;
+}
+
+.botonVerde
+{
+    background-color: green;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 32px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.botonVerde:hover
+{
+    background-color: coral;
+    color: blueviolet;
+}
+
+h1
+{
+    text-align: center;
+}
