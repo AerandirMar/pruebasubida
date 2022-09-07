@@ -1,3 +1,12 @@
+body
+{
+    background-image: linear-gradient(lightblue, violet);
+    width: 100%;
+    margin: 0 auto;
+    min-width: 400px;
+    max-width: 2000px;
+}
+
 .container
 {
     display: flex;
@@ -17,11 +26,11 @@
     box-shadow: 10px 10px 10px #999;
 }
 
-#dos
+/*#dos
 {
     align-self: center;
 }
-
+*/
 img
 {
     /*border-radius: 10px; */
