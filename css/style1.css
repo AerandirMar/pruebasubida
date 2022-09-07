@@ -9,10 +9,11 @@ body
 
 .container
 {
-    display: flex;
+    display: inline; 
     width: 80%;
     height: 500px;
-    margin: auto;
+    margin: 20px;
+    padding: 20px;
     justify-content: space-around;
     align-items: flex-end;
 }
@@ -24,13 +25,25 @@ body
     background-color: lightgray;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #999;
+    margin-left: 2%;
+    /*position: relative;*/
 }
 
-/*#dos
+#cuatro
 {
-    align-self: center;
+    width: 320px;
+    height: 470px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+    margin-left: 2%;
 }
-*/
+
+#uno, #cuatro
+{
+
+}
+
 img
 {
     /*border-radius: 10px; */
@@ -46,6 +59,7 @@ p
 {
     padding: 10px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .botonRojo
@@ -87,4 +101,18 @@ p
 h1
 {
     text-align: center;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+#uno, #cuatro
+{
+    display: inline-flexbox;
+}
+
+#png
+{
+    margin-top: 20%;
+    margin-left: 45%;
+    width: 5%;
+    height: 5%;
 }
